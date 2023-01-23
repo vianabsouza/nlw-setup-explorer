@@ -26,6 +26,7 @@
     border: 1px solid #8B5CF6;
     border-radius: 8px;
     color: white;
+    cursor: pointer;
     display: flex;
     font-family: 'Inter';
     font-size: 16px;
