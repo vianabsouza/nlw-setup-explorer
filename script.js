@@ -7,9 +7,9 @@ form.addEventListener('change', save)
 
 function add() {
   const today = new Date().toLocaleDateString('pt-br').slice(0, -5);
-  const dayExistx = nlwSetup.dayExists(today)
+  const dayExists = nlwSetup.dayExists(today)
 
-  if (dayExistx) {
+  if (dayExists) {
     alert('Dia já incluso 🔴')
     return
   }
